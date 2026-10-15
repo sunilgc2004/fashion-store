@@ -1,0 +1,1 @@
+ALTER TABLE "ProductVariant" ADD CONSTRAINT "stock_nonneg" CHECK ("stock" >= 0);
